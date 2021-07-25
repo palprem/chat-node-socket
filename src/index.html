@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css" integrity="sha512-y6ZMKFUQrn+UUEVoqYe8ApScqbjuhjqzTuwUMEGMDuhS2niI8KA3vhH2LenreqJXQS+iIXVTRL2iaNfJbDNA1Q==" crossorigin="anonymous" referrerpolicy="no-referrer" /><head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome!</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body class="">
+    <section class=" chat__section ">
+        <div class="rounded-t bg-blue-400 flex ">
+            <img class="h-20" src="https://avatars.githubusercontent.com/u/70439019?v=4" alt="">
+            <h1 class="my-6">Chat with your friend!</h1>
+        </div>
+        <div class="message__area ">
+
+            <!-- all message content -->
+        </div>
+        <div class="border">
+            <div class="  " >
+                <textarea id="textarea" cols="30" rows="1" placeholder="Write a message..."> </textarea>
+            </div>
+            
+        </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+
+</html>
